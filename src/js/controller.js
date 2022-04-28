@@ -5,10 +5,10 @@ import resultsView from "./views/resultsView.js";
 import paginationView from "./views/paginationView.js";
 import bookmarksView from "./views/bookmarksView.js";
 import addRecipeView from "./views/addRecipeView.js";
+import searchView from "./views/searchView.js";
 
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-import searchView from "./views/SearchView.js";
 
 if (module.hot) {
   module.hot.accept();
